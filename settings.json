@@ -1,0 +1,120 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.editor.enablePreview": false,
+    "workbench.colorCustomizations": {
+        "[Quiet Light]": {
+            "rust_analyzer.inlayHints.background": "#eeeeee"
+        }
+    },
+    "files.enableTrash": false,
+    "explorer.confirmDelete": false,
+    "editor.lineHeight": 21,
+    "workbench.tree.indent": 20,
+    "window.zoomLevel": 0.35,
+    "editor.semanticTokenColorCustomizations": {
+        "[Quiet Light]": {
+            "rules": {
+                "variable": "#333333",
+                "keyword": "#4B69C6",
+                "builtinType": {
+                    "foreground": "#4B69C6"
+                },
+                "function.declaration": {
+                    "fontStyle": "italic"
+                },
+                "method": {
+                    "fontStyle": "",
+                    "foreground": "#333333"
+                },
+                "struct": {
+                    "foreground": "#333333",
+                    "fontStyle": ""
+                },
+                "type": {
+                    "fontStyle": "",
+                    "foreground": "#333333"
+                },
+                "enum": {
+                    "fontStyle": "",
+                    "foreground": "#333333"
+                },
+                "enumMember": "#333333",
+                "interface": {
+                    "fontStyle": "",
+                    "foreground": "#333333"
+                },
+                "function": {
+                    "fontStyle": "",
+                    "foreground": "#333333"
+                },
+                "namespace": {
+                    "foreground": "#333333",
+                    "fontStyle": ""
+                },
+                "macro": {
+                    "fontStyle": ""
+                },
+                "parameter": {
+                    "foreground": "#9E880D",
+                    "fontStyle": "italic"
+                },
+                "typeAlias":"#333333",
+                "property": "#333333",
+            }
+        },
+    },
+    "editor.tokenColorCustomizations": {
+        "[Quiet Light]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "entity.name.type.rust",
+                        "entity.name.namespace.rust",
+                        "entity.name.type.numeric.rust",
+                        "entity.name.function.rust",
+                        "entity.name.function.macro.rust",
+                        "entity.name.type.option.rust",
+                        "entity.name.type.primitive.rust"
+                    ],
+                    "settings": { "fontStyle": "" }
+                },
+                {
+                    "scope": [
+                        "storage.type.rust",
+                        "entity.name.type.result.rust",
+                        "entity.name.type.numeric.rust",
+                        "entity.name.type.primitive.rust"
+                    ],
+                    "settings": {
+                        "foreground": "#4B69C6"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.rust",
+                        "entity.name.type.rust",
+                        "entity.name.namespace.rust",
+                        "keyword.other.crate.rust",
+                        "variable.language.self.rust",
+                        "entity.name.function.rust",
+                        "constant.other.caps.rust"
+                    ],
+                    "settings": {
+                        "foreground": "#333333"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type.result.rust"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.colorTheme": "Quiet Light",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "security.workspace.trust.enabled": false
+}
